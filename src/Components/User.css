@@ -1,0 +1,183 @@
+.user{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    margin-top: 2rem;
+}
+.user-container{
+    margin-left: 20%;
+    margin-right: 20%;
+    border-bottom: 1px solid rgb(219, 219, 219);
+    height: 200px;
+}
+.user-logo-col{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.user-logo{
+    border: 2px solid #08121b;
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255);
+}
+.user-logo img{
+    padding: 1rem;
+    border-radius: 50%;
+    width: 10rem;
+    height: 10rem;
+}
+.hidden-details{
+    font-size: small;
+}
+.user-name{
+    font-weight: 400;
+    font-size: large;
+}
+.verified-icon{
+    color: #3797f0;
+}
+.follow-button-group{
+    margin-left: 1rem;
+}
+.follow-button{
+    background-color: #eeeeee;
+    color: black;
+    font-weight: 500;
+    border: none;
+    margin-left: 0.5rem;
+}
+.follow-button:hover{
+    background-color: #dbdbdb;
+    color: black;
+}
+.follower-details-mobile{
+    height: 3rem;
+    border-bottom: 1px solid rgb(219, 219, 219);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 12%;
+    margin-right: 12%;
+}
+.follower-details-mobile-container{
+    height: 3rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.activity-details{
+    margin-left: 1rem;
+}
+.activity-details-mobile{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: 400;
+}
+.tabpanel-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 3rem;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+.tabpanel-container button{
+    background-color: inherit;
+    border: none;
+    width: 5rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 3rem;
+}
+.tabpanel-container button:hover{
+    border-top: 1px solid rgb(146, 144, 144);
+}
+.tapanel-nbuttons{
+    margin-left: 2rem;
+}
+@media screen and (width > 768px) {
+    .hidden-details{
+        display: none;
+    }
+}
+@media screen and (width < 768px) {
+    .user-logo{
+        width: 5rem;
+        height: 5rem;
+    }
+    .user-logo img{
+        width: 5rem;
+        height: 5rem;
+    }
+}
+@media screen and (width < 768px) {
+    .user-intial-details{
+        display: none;
+    }
+}
+@media screen and (width < 768px) {
+    .followers-details-initial{
+        display: none;
+    }
+}
+@media screen and (width < 768px) {
+    .follow-button-group{
+        display: none;
+    }
+    .user-name{
+        margin-left: 1rem;
+    }
+}
+@media screen and (width > 768px) {
+    .follow-button-group-mobile{
+        display: none;
+    }
+}
+@media screen and (width < 768px) {
+    .user-logo{
+        width: 5rem;
+        height: 5rem;
+    }
+    .user-logo-col{
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+    }
+}
+@media screen and (width < 768px) {
+    .user-container{
+        margin: auto;
+        display: flex;
+        flex-direction: row;
+    }
+    .user-details-col{
+        position: absolute;
+        top: 12%;
+        right: 25%;
+    }
+}
+@media screen and (width > 768px) {
+    .follower-details-mobile{
+        display: none;
+    }
+}
+@media screen and (width < 590px) {
+    .follower-details-mobile{
+        margin: auto;
+    }
+}
+@media screen and (width < 768px) {
+    .tabpanel-container{
+        margin-left: 12%;
+        margin-right: 12%;
+    }
+}
+@media screen and (width < 590px) {
+    .tabpanel-container{
+        margin: auto;
+    }
+}

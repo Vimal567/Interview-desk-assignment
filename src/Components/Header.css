@@ -1,0 +1,52 @@
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid rgb(219, 219, 219);
+    height: 3.5rem;
+    background-color: rgb(255, 255, 255);
+}
+.header-container{
+    display: flex;
+    align-items: center;
+}
+.insta-logo{
+    margin-right: 12rem;
+}
+.search-bar{
+    border: none;
+    background-color: gray;
+}
+.login-button{
+    background-color: rgb(0, 149, 246);
+    border: none;
+    font-weight: 600;
+    margin-left: 12rem;
+}
+.signup-button{
+    background-color: inherit;
+    border: none;
+    color: rgb(0, 149, 246);
+    font-weight: 600;
+}
+.signup-button:hover{
+    background-color: inherit;
+    border: none;
+    color: rgb(113, 196, 252);
+    font-weight: 600;
+}
+@media screen and (width < 644px) {
+    .insta-logo{
+        margin-right: auto;
+    }
+}
+@media screen and (width < 450px) {
+    .login-button{
+        margin-left: 6rem;
+    }
+}
+@media screen and (width < 350px) {
+    .login-button{
+        margin-left: 2rem;
+    }
+}
